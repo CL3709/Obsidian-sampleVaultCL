@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8f1c0a73b910e55a",
+        "id": "49cbdcf5314cccfb",
         "type": "tabs",
         "children": [
           {
-            "id": "e7aa46e12d61000b",
+            "id": "902d604c31ec20ba",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -264,9 +264,16 @@
       "cmdr:Git: Pull": false
     }
   },
-  "active": "e7aa46e12d61000b",
+  "active": "397f99cc771ed0fd",
   "lastOpenFiles": [
+    "README.md",
+    "Home.md",
+    "100_笔记/110_ObsidianCL示例库/SampleVaultCL-BeginPage.md",
+    "100_笔记/110_ObsidianCL示例库/SampleVaultCL-HotKeys.md",
+    "200_碎片/Git 的使用.md",
     "200_碎片/使用 Obsidian Git 插件备份笔记.md",
+    "100_笔记/110_ObsidianCL示例库/SampleVaultCL-TaskManagerGuide.md",
+    "100_笔记/110_ObsidianCL示例库/SampleVaultCL-ObsidianQuickStartGuide.md",
     "300_附件/330_绘图/使用 Obsidian Git 插件备份笔记 2024-03-01 16.03.01.excalidraw.md",
     "300_附件/Pasted image 20240301164149.png",
     "300_附件/Pasted image 20240301163901.png",
@@ -281,16 +288,9 @@
     "300_附件/Pasted Image 20240301160600_061.png",
     "300_附件/Pasted Image 20240301160544_066.png",
     "300_附件/330_绘图/使用 Obsidian Git 插件备份笔记 2024-03-01 15.48.08.excalidraw.md",
-    "100_笔记/110_ObsidianCL示例库/SampleVaultCL-BeginPage.md",
-    "Home.md",
     "Obsidian-sampleVaultCL/README.md",
     "Obsidian-sampleVaultCL",
-    "README.md",
     "新建文件夹",
-    "100_笔记/110_ObsidianCL示例库/SampleVaultCL-TaskManagerGuide.md",
-    "100_笔记/110_ObsidianCL示例库/SampleVaultCL-ObsidianQuickStartGuide.md",
-    "200_碎片/Git 的使用.md",
-    "100_笔记/110_ObsidianCL示例库/SampleVaultCL-HotKeys.md",
     "400_待办/420_周记录库/2024-W09.md",
     "400_待办/410_日记录库/待办板.md",
     "100_笔记/110_ObsidianCL示例库/自定义标签颜色.md",

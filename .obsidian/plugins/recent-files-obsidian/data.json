@@ -5,6 +5,14 @@
       "path": "Home.md"
     },
     {
+      "basename": "SampleVaultCL-BeginPage",
+      "path": "100_笔记/110_ObsidianCL示例库/SampleVaultCL-BeginPage.md"
+    },
+    {
+      "basename": "SampleVaultCL-HotKeys",
+      "path": "100_笔记/110_ObsidianCL示例库/SampleVaultCL-HotKeys.md"
+    },
+    {
       "basename": "使用 Obsidian Git 插件备份笔记",
       "path": "200_碎片/使用 Obsidian Git 插件备份笔记.md"
     },
@@ -25,20 +33,12 @@
       "path": "300_附件/330_绘图/使用 Obsidian Git 插件备份笔记 2024-03-01 15.48.08.excalidraw.md"
     },
     {
-      "basename": "SampleVaultCL-BeginPage",
-      "path": "100_笔记/110_ObsidianCL示例库/SampleVaultCL-BeginPage.md"
-    },
-    {
       "basename": "SampleVaultCL-ObsidianQuickStartGuide",
       "path": "100_笔记/110_ObsidianCL示例库/SampleVaultCL-ObsidianQuickStartGuide.md"
     },
     {
       "basename": "Git 的使用",
       "path": "200_碎片/Git 的使用.md"
-    },
-    {
-      "basename": "SampleVaultCL-HotKeys",
-      "path": "100_笔记/110_ObsidianCL示例库/SampleVaultCL-HotKeys.md"
     },
     {
       "basename": "SampleVaultCL-TaskManagerGuide",
