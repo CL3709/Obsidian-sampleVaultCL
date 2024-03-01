@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "cfb04eba73f09392",
+        "id": "0abdbe486088e461",
         "type": "tabs",
         "children": [
           {
-            "id": "733141f8519ea19d",
+            "id": "1ccb346e309b913b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
-                "mode": "preview",
+                "file": "200_碎片/使用 Obsidian Git 插件备份笔记.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -124,7 +124,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Home.md"
+                "file": "200_碎片/使用 Obsidian Git 插件备份笔记.md"
               }
             }
           },
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "200_碎片/使用 Obsidian Git 插件备份笔记.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Home.md",
+                "file": "200_碎片/使用 Obsidian Git 插件备份笔记.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -209,7 +209,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "200_碎片/使用 Obsidian Git 插件备份笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,7 +221,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "200_碎片/使用 Obsidian Git 插件备份笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -264,29 +264,40 @@
       "cmdr:Git: Pull": false
     }
   },
-  "active": "733141f8519ea19d",
+  "active": "1ccb346e309b913b",
   "lastOpenFiles": [
+    "300_附件/330_绘图/使用 Obsidian Git 插件备份笔记 2024-03-01 16.03.01.excalidraw.md",
+    "200_碎片/使用 Obsidian Git 插件备份笔记.md",
+    "300_附件/Pasted image 20240301164149.png",
+    "300_附件/Pasted image 20240301163901.png",
+    "300_附件/330_绘图/使用 Obsidian Git 插件备份笔记 2024-03-01 16.31.57.excalidraw.md",
+    "300_附件/Pasted Image 20240301163322_189.png",
+    "300_附件/Pasted Image 20240301163212_163.png",
+    "300_附件/330_绘图/使用 Obsidian Git 插件备份笔记 2024-03-01 16.29.08.excalidraw.md",
+    "300_附件/Pasted Image 20240301163042_061.png",
+    "300_附件/Pasted Image 20240301162955_059.png",
+    "300_附件/Pasted Image 20240301162924_079.png",
+    "300_附件/Pasted Image 20240301162212_069.png",
+    "300_附件/Pasted Image 20240301160600_061.png",
+    "300_附件/Pasted Image 20240301160544_066.png",
+    "300_附件/330_绘图/使用 Obsidian Git 插件备份笔记 2024-03-01 15.48.08.excalidraw.md",
+    "100_笔记/110_ObsidianCL示例库/SampleVaultCL-BeginPage.md",
+    "Home.md",
     "Obsidian-sampleVaultCL/README.md",
     "Obsidian-sampleVaultCL",
     "README.md",
-    "Home.md",
     "新建文件夹",
-    "100_笔记/110_ObsidianCL示例库/SampleVaultCL-BeginPage.md",
     "100_笔记/110_ObsidianCL示例库/SampleVaultCL-TaskManagerGuide.md",
     "100_笔记/110_ObsidianCL示例库/SampleVaultCL-ObsidianQuickStartGuide.md",
-    "200_碎片/使用 Obsidian Git 插件备份笔记.md",
     "200_碎片/Git 的使用.md",
     "100_笔记/110_ObsidianCL示例库/SampleVaultCL-HotKeys.md",
     "400_待办/420_周记录库/2024-W09.md",
     "400_待办/410_日记录库/待办板.md",
-    "300_附件/Pasted image 20240227223223.png",
     "100_笔记/110_ObsidianCL示例库/自定义标签颜色.md",
     "100_笔记/110_ObsidianCL示例库",
     "100_笔记/110_ObsidianCL示例库/SampleVaultCL-BackupSolutionsRecommendations.md",
     "200_碎片/AnuPpuccinMD元素设置对照.md",
     "200_碎片/Git Cheat List.md",
-    "300_附件/Pasted image 20240227221632.png",
-    "300_附件/Pasted image 20240227221444.png",
     "Obsidian-SampleVaultCL/README.md",
     "Obsidian-SampleVaultCL",
     "500_模板/Taskido/待办事项统计板.md",
@@ -294,17 +305,6 @@
     "500_模板/tablesCSS/05 - White red rounded.md",
     "500_模板/tablesCSS/06 - Yellow cab.md",
     "500_模板/tablesCSS/05 - White red.md",
-    "500_模板/tablesCSS/04 - Latex like.md",
-    "500_模板/tablesCSS/03 - FlatBlue.md",
-    "500_模板/tablesCSS/02 - PurpleRed.md",
-    "500_模板/tablesCSS/01 - Default Table.md",
-    "300_附件/Pasted image 20240226005812.png",
-    "300_附件/Pasted Image 20240225235551_669.png",
-    "300_附件/Pasted Image 20240225235356_733.png",
-    "300_附件/Pasted Image 20240225235336_064.png",
-    "300_附件/Pasted Image 20240225234809_196.png",
-    "300_附件/Pasted Image 20240225234652_381.png",
-    "300_附件/Pasted Image 20240225234536_397.png",
     "500_模板/font/Muyao-Softbrush-2.ttf",
     "500_模板/font",
     "300_附件/330_绘图",

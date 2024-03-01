@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "Home",
-      "path": "Home.md"
-    },
-    {
       "basename": "使用 Obsidian Git 插件备份笔记",
       "path": "200_碎片/使用 Obsidian Git 插件备份笔记.md"
     },
     {
+      "basename": "使用 Obsidian Git 插件备份笔记 2024-03-01 16.03.01.excalidraw",
+      "path": "300_附件/330_绘图/使用 Obsidian Git 插件备份笔记 2024-03-01 16.03.01.excalidraw.md"
+    },
+    {
+      "basename": "使用 Obsidian Git 插件备份笔记 2024-03-01 16.31.57.excalidraw",
+      "path": "300_附件/330_绘图/使用 Obsidian Git 插件备份笔记 2024-03-01 16.31.57.excalidraw.md"
+    },
+    {
+      "basename": "使用 Obsidian Git 插件备份笔记 2024-03-01 16.29.08.excalidraw",
+      "path": "300_附件/330_绘图/使用 Obsidian Git 插件备份笔记 2024-03-01 16.29.08.excalidraw.md"
+    },
+    {
+      "basename": "使用 Obsidian Git 插件备份笔记 2024-03-01 15.48.08.excalidraw",
+      "path": "300_附件/330_绘图/使用 Obsidian Git 插件备份笔记 2024-03-01 15.48.08.excalidraw.md"
+    },
+    {
       "basename": "SampleVaultCL-BeginPage",
       "path": "100_笔记/110_ObsidianCL示例库/SampleVaultCL-BeginPage.md"
+    },
+    {
+      "basename": "Home",
+      "path": "Home.md"
     },
     {
       "basename": "SampleVaultCL-ObsidianQuickStartGuide",
