@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "ca4754186e0fd367",
+        "id": "cfb04eba73f09392",
         "type": "tabs",
         "children": [
           {
-            "id": "8cbf24d9f8b992b3",
+            "id": "733141f8519ea19d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200_碎片/使用 Obsidian Git 插件备份笔记.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "697a4beb4ada5580",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "200_碎片/使用 Obsidian Git 插件备份笔记.md",
-                "mode": "source",
+                "file": "Home.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -137,7 +124,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "200_碎片/使用 Obsidian Git 插件备份笔记.md"
+                "file": "Home.md"
               }
             }
           },
@@ -177,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200_碎片/使用 Obsidian Git 插件备份笔记.md"
+                "file": "Home.md"
               }
             }
           },
@@ -187,7 +174,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "200_碎片/使用 Obsidian Git 插件备份笔记.md",
+                "file": "Home.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -222,7 +209,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200_碎片/使用 Obsidian Git 插件备份笔记.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +221,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200_碎片/使用 Obsidian Git 插件备份笔记.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -277,18 +264,18 @@
       "cmdr:Git: Pull": false
     }
   },
-  "active": "697a4beb4ada5580",
+  "active": "733141f8519ea19d",
   "lastOpenFiles": [
     "Obsidian-sampleVaultCL/README.md",
     "Obsidian-sampleVaultCL",
+    "README.md",
+    "Home.md",
     "新建文件夹",
     "100_笔记/110_ObsidianCL示例库/SampleVaultCL-BeginPage.md",
     "100_笔记/110_ObsidianCL示例库/SampleVaultCL-TaskManagerGuide.md",
     "100_笔记/110_ObsidianCL示例库/SampleVaultCL-ObsidianQuickStartGuide.md",
-    "Home.md",
     "200_碎片/使用 Obsidian Git 插件备份笔记.md",
     "200_碎片/Git 的使用.md",
-    "README.md",
     "100_笔记/110_ObsidianCL示例库/SampleVaultCL-HotKeys.md",
     "400_待办/420_周记录库/2024-W09.md",
     "400_待办/410_日记录库/待办板.md",
@@ -311,7 +298,6 @@
     "500_模板/tablesCSS/03 - FlatBlue.md",
     "500_模板/tablesCSS/02 - PurpleRed.md",
     "500_模板/tablesCSS/01 - Default Table.md",
-    "300_附件/330_绘图/SampleVaultCL-TaskManagerGuide 2024-02-25 23.42.56.excalidraw.md",
     "300_附件/Pasted image 20240226005812.png",
     "300_附件/Pasted Image 20240225235551_669.png",
     "300_附件/Pasted Image 20240225235356_733.png",
