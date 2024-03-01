@@ -1,0 +1,364 @@
+{
+  "choices": [
+    {
+      "id": "67fa0752-b60d-4bbb-a312-fbf6f7a7b34f",
+      "name": "快速输入-info",
+      "type": "Capture",
+      "command": false,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": ">[!info] "
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "ceb94870-2f3c-42c0-8fe4-c702f1fbcb9c",
+      "name": "快速输入-note",
+      "type": "Capture",
+      "command": false,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": ">[!note] "
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "81dd1820-9eff-427b-bd83-96fdd8190364",
+      "name": "快速输入-tip",
+      "type": "Capture",
+      "command": false,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": ">[!tip] "
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "f0daa6c8-7f69-40e3-9f0d-0c0501728a9a",
+      "name": "快速输入-warning",
+      "type": "Capture",
+      "command": false,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": ">[!warning] "
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "50233656-413b-4941-941a-ef2e2ccca922",
+      "name": "快速输入-abstract",
+      "type": "Capture",
+      "command": false,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": true,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": ">[!abstract] "
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "f1d37d8e-7156-4ed9-b7ef-21cc0b3c8643",
+      "name": "打开当周记录",
+      "type": "Template",
+      "command": false,
+      "templatePath": "500_模板/周记模板.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{DATE:YYYY}}-W{{DATE:WW}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "400_待办/420_周记录库"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": false
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Nothing",
+      "setFileExistsBehavior": true
+    },
+    {
+      "id": "71a9b1ce-5716-4ec1-b3b9-c5e0f4888081",
+      "name": "打开待办板",
+      "type": "Template",
+      "command": false,
+      "templatePath": "400_待办/410_日记录库/待办板",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "待办板"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "400_待办/410_日记录库"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": false
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Nothing",
+      "setFileExistsBehavior": true
+    },
+    {
+      "id": "a561a4ed-b4f3-4b96-a6a6-59369ec12be0",
+      "name": "在新窗口打开待办板和当周记录",
+      "type": "Macro",
+      "command": false,
+      "macroId": "60a72a56-3c80-464b-a0bc-eeeba5dad84a"
+    }
+  ],
+  "macros": [
+    {
+      "name": "在新窗口打开待办板和当周记录",
+      "id": "60a72a56-3c80-464b-a0bc-eeeba5dad84a",
+      "commands": [
+        {
+          "name": "打开todo看板",
+          "type": "NestedChoice",
+          "id": "a1785a99-78d9-4b30-b4bf-f9b07de7740f",
+          "choice": {
+            "id": "b6d18833-5706-4753-8286-5928e831dddd",
+            "name": "打开todo看板",
+            "type": "Template",
+            "command": false,
+            "templatePath": "400_待办/410_日记录库/待办板",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "待办板"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "400_待办/410_日记录库"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "preview",
+            "fileExistsMode": "Nothing",
+            "setFileExistsBehavior": true
+          }
+        },
+        {
+          "name": "将当前面板移动至新窗口",
+          "type": "Obsidian",
+          "id": "ee83df55-c0aa-4c73-8060-90d664fb50b9",
+          "commandId": "workspace:move-to-new-window"
+        },
+        {
+          "name": "打开周记",
+          "type": "NestedChoice",
+          "id": "52a3b9a7-89b8-4eb9-b6ab-652c5dcd393b",
+          "choice": {
+            "id": "90569596-41b3-4f47-86d0-32ca7627423a",
+            "name": "打开周记",
+            "type": "Template",
+            "command": false,
+            "templatePath": "500_模板/周记模板.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{date:YYYY}}-W{{DATE:WW}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "400_待办/420_周记录库"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "preview",
+            "fileExistsMode": "Nothing",
+            "setFileExistsBehavior": true
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "用悬浮窗口打开终端",
+      "id": "f412858b-e55a-4b88-a1ae-083b2018b2d8",
+      "commands": [
+        {
+          "name": "终端: 开啟终端：选择",
+          "type": "Obsidian",
+          "id": "5062bbf8-5301-4220-adf8-f448be2beb5c",
+          "commandId": "terminal:open-terminal.select."
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "single-line",
+  "devMode": false,
+  "templateFolderPath": "500_模板",
+  "announceUpdates": true,
+  "version": "1.7.0",
+  "disableOnlineFeatures": true,
+  "ai": {
+    "OpenAIApiKey": "",
+    "defaultModel": "Ask me",
+    "defaultSystemPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\text{new}}:=w_{ij}^{\text{current}}+etacdotdelta_jcdot x_{ij}$$ on a separate line, but you can write \"($eta$ = learning rate, $delta_j$ = error term, $x_{ij}$ = input)\" inline.",
+    "promptTemplatesFolderPath": "",
+    "showAssistant": true
+  },
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true
+  }
+}

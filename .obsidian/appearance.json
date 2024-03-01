@@ -1,0 +1,18 @@
+{
+  "accentColor": "#4185b9",
+  "theme": "moonstone",
+  "cssTheme": "AnuPpuccin",
+  "enabledCssSnippets": [
+    "custom-rainbow-colors",
+    "[AnuPpuccin]custom-rainbow-colors",
+    "[AnuPpuccin]extended-colorschemes",
+    "MCL Multi Column",
+    "MCL Wide Views",
+    "tableStyles",
+    "image-grid",
+    "tagColors",
+    "imageDefaultCenter"
+  ],
+  "baseFontSize": 16,
+  "monospaceFontFamily": ""
+}

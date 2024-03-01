@@ -1,0 +1,22 @@
+{
+  "defaultViewMode": "preview",
+  "readableLineLength": false,
+  "strictLineBreaks": true,
+  "propertiesInDocument": "hidden",
+  "trashOption": "local",
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "000_收件",
+  "attachmentFolderPath": "300_附件",
+  "showIndentGuide": false,
+  "showUnsupportedFiles": true,
+  "showInlineTitle": false,
+  "focusNewTab": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
+}

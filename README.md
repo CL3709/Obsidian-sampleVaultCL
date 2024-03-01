@@ -1,2 +1,12 @@
-# Obsidian-sampleVaultCL
- A sample vault of Obsidian, featuring a homepage, guidance manual, and to-do list management functionality.
+---
+Date: 2024-02-27 22:05:43
+Author: CL
+cssclasses:
+  - darkblue
+  - wideTable
+  - darkblue-rounded
+---
+```bash nums
+# test
+test of 
+```

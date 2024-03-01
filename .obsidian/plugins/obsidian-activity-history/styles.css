@@ -1,0 +1,39 @@
+.block-language-ActivityHistory {
+    margin: 1rem 0;
+}
+
+.selectYear {
+    border-color: none;
+}
+
+.HistoryBoard {
+    background-color: transparent !important;
+    padding: 10px;
+    border-radius: 3px;
+    width: auto;
+    height: auto;
+    border: 1px solid #438daf; /* 添加边框属性 */
+}
+
+.HistoryBoard text {
+    fill: #438daf !important; /* 设置文本颜色 */
+}
+
+.ObsidianHistoryBlock {
+    background-color: transparent !important;
+    border-radius: 3px;
+    width: auto;
+    height: auto;
+}
+
+.ObsidianHistoryBlock text {
+    fill: #438daf !important; /* 设置文本颜色 */
+}
+
+.selectYear {
+    margin: 1px !important;
+    border-radius: 3 !important;
+    border-color: transparent !important;
+    background: transparent;
+    display: none !important;
+}

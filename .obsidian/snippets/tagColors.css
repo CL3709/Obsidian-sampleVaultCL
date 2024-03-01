@@ -1,0 +1,51 @@
+/* 默认状态下的样式，透明度为半透明0.1 */
+.tag[href^="#个人"] {
+    background-color: rgba(136, 192, 208, 0.1); /*背景颜色*/
+    transition: background-color 0.3s ease; /* 添加过渡效果 */
+    color: rgb(94, 152, 207);           /*文本颜色*/
+}
+
+/* 鼠标悬浮状态下的样式，透明度增加 */
+.tag[href^="#个人"]:hover {
+    background-color: rgba(136, 192, 208, 0.3);  /* 背景颜色，鼠标悬浮状态下的透明度增加到0.3，数字越高越不透明 */
+    color: rgb(123, 171, 216); /*文本颜色*/
+}
+
+/* 同上 */
+
+.tag[href^="#部门"] {
+    background-color: rgba(180, 142, 173, 0.1); 
+    transition: background-color 0.3s ease; 
+    color: rgb(224, 141, 211); 
+}
+
+.tag[href^="#部门"]:hover {
+    background-color: rgba(180, 142, 173, 0.3); 
+    color: rgb(224, 141, 211); 
+}
+
+/* 同上 */
+
+.tag[href^="#客户"] {
+    background-color: rgba(235, 203, 139, 0.1); 
+    transition: background-color 0.3s ease; 
+    color: rgb(224, 177, 107); 
+}
+
+.tag[href^="#客户"]:hover {
+    background-color: rgba(235, 203, 139, 0.3); 
+    color: rgba(224, 177, 107); 
+}
+
+/* 同上 */
+
+.tag[href^="#项目"] {
+    background-color: rgba(109, 190, 133, 0.1); 
+    transition: background-color 0.3s ease; 
+    color: rgba(109, 190, 133); 
+}
+
+.tag[href^="#项目"]:hover {
+    background-color: rgba(109, 190, 133, 0.3); 
+    color: rgba(109, 190, 133); 
+}

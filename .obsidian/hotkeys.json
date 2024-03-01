@@ -1,0 +1,43 @@
+{
+  "cmdr:macro-0": [
+    {
+      "modifiers": [],
+      "key": "F3"
+    }
+  ],
+  "easy-typing-obsidian:easy-typing-format-switch": [],
+  "easy-typing-obsidian:easy-typing-insert-codeblock": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "C"
+    }
+  ],
+  "quickadd:runQuickAdd": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Q"
+    }
+  ],
+  "markdown:add-metadata-property": [],
+  "easy-typing-obsidian:easy-typing-delete-blank-line": [],
+  "editor:cycle-list-checklist": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Enter"
+    }
+  ],
+  "editor:open-link-in-new-leaf": [],
+  "keyboard-analyzer:show-shortcuts-analyzer-view": [
+    {
+      "modifiers": [],
+      "key": "F10"
+    }
+  ]
+}

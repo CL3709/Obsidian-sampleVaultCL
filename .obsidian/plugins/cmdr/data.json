@@ -1,0 +1,146 @@
+{
+  "confirmDeletion": true,
+  "showAddCommand": true,
+  "debug": false,
+  "editorMenu": [],
+  "fileMenu": [],
+  "leftRibbon": [
+    {
+      "id": "file-explorer:move-file",
+      "icon": "lucide-folder-tree",
+      "name": "将文件移动到其他文件夹",
+      "mode": "any",
+      "color": "#954eb7"
+    },
+    {
+      "id": "homepage:open-homepage",
+      "icon": "home",
+      "name": "Homepage: Open homepage",
+      "mode": "any",
+      "color": "#3f6dd9"
+    },
+    {
+      "id": "obsidian-hover-editor:convert-active-pane-to-popover",
+      "icon": "box-select",
+      "name": "Hover Editor: Convert active pane to Hover Editor",
+      "mode": "any",
+      "color": "#ac953e"
+    },
+    {
+      "id": "oz-clear-unused-images:clear-images-obsidian",
+      "icon": "image-off",
+      "name": "Clear Unused Images: Clear Unused Images",
+      "mode": "any",
+      "color": "#e14141"
+    },
+    {
+      "id": "obsidian-excalidraw-plugin:excalidraw-autocreate-and-embed-new-tab",
+      "icon": "image-plus",
+      "name": "Excalidraw: 新建绘图 - 于新页签 - 并将其嵌入（形如 ![[drawing]]）到当前 Markdown 文档中",
+      "mode": "any",
+      "color": "#45a1bf"
+    },
+    {
+      "id": "editor:fold-all",
+      "icon": "lucide-minimize-2",
+      "name": "折叠所有标题和列表",
+      "mode": "any",
+      "color": "#44bb78"
+    },
+    {
+      "id": "editor:unfold-all",
+      "icon": "lucide-maximize-2",
+      "name": "展开所有标题和列表",
+      "mode": "any",
+      "color": "#44bb78"
+    },
+    {
+      "id": "editor:insert-table",
+      "icon": "lucide-table",
+      "name": "Insert table",
+      "mode": "any",
+      "color": "#b17939"
+    },
+    {
+      "id": "obsidian-charts:chart-from-table-column",
+      "icon": "align-end-horizontal",
+      "name": "Charts: Create Chart from Table (Column oriented Layout)",
+      "mode": "any",
+      "color": "#b17939"
+    },
+    {
+      "id": "obsidian-git:commit",
+      "icon": "save",
+      "name": "Git: Commit all changes",
+      "mode": "any",
+      "color": "#41ae32"
+    },
+    {
+      "id": "obsidian-git:push2",
+      "icon": "upload-cloud",
+      "name": "Git: Push",
+      "mode": "any",
+      "color": "#41ae32"
+    },
+    {
+      "id": "obsidian-git:pull",
+      "icon": "download-cloud",
+      "name": "Git: Pull",
+      "mode": "any",
+      "color": "#41ae32"
+    }
+  ],
+  "rightRibbon": [],
+  "titleBar": [],
+  "statusBar": [],
+  "pageHeader": [],
+  "macros": [
+    {
+      "macro": [
+        {
+          "action": 0,
+          "commandId": "obsidian-style-settings:show-style-settings-leaf"
+        },
+        {
+          "action": 1,
+          "delay": "100"
+        },
+        {
+          "action": 0,
+          "commandId": "obsidian-hover-editor:convert-active-pane-to-popover"
+        }
+      ],
+      "name": "Style Settings - 悬浮窗",
+      "icon": "star",
+      "startup": false
+    }
+  ],
+  "explorer": [],
+  "hide": {
+    "statusbar": [],
+    "leftRibbon": [
+      "打开快速切换",
+      "新建白板",
+      "打开/创建今天的日记",
+      "插入模板",
+      "打开命令面板",
+      "File Tree Alternative Plugin",
+      "查看关系图谱",
+      "Open homepage",
+      "Templater",
+      "新建绘图文件",
+      "surfing-bookmark-manager"
+    ]
+  },
+  "spacing": 8,
+  "advancedToolbar": {
+    "rowHeight": 48,
+    "rowCount": 1,
+    "spacing": 0,
+    "buttonWidth": 48,
+    "columnLayout": false,
+    "mappedIcons": [],
+    "tooltips": false,
+    "heightOffset": 0
+  }
+}

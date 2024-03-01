@@ -1,0 +1,14 @@
+{
+  "highlighterStyle": "rounded",
+  "highlighterMethods": "css-classes",
+  "highlighters": {
+    "red": "#A130309E",
+    "pink": "#A62E849E",
+    "orange": "#A46732B5"
+  },
+  "highlighterOrder": [
+    "red",
+    "pink",
+    "orange"
+  ]
+}
