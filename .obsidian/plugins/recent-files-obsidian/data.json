@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
       "basename": "使用 Obsidian Git 插件备份笔记",
       "path": "200_碎片/使用 Obsidian Git 插件备份笔记.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "SampleVaultCL-BeginPage",
       "path": "100_笔记/110_ObsidianCL示例库/SampleVaultCL-BeginPage.md"
-    },
-    {
-      "basename": "Home",
-      "path": "Home.md"
     },
     {
       "basename": "SampleVaultCL-ObsidianQuickStartGuide",
