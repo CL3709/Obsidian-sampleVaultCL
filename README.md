@@ -13,7 +13,7 @@ Author: CL
 
 ![image](https://github.com/CL3709/Obsidian-sampleVaultCL/assets/140160162/125a5c25-5ae8-4a79-afc8-db4cb7f538a3)
 
-![image](https://github.com/CL3709/Obsidian-sampleVaultCL/assets/140160162/83464ffd-c859-44bf-91ee-3f5c3d1ccd5e)
+![image](300_附件/3.gif)
 
 ## 安装和使用
 
@@ -31,6 +31,6 @@ Author: CL
 
 解压并使用 obsidian 打开本地仓库即可，如果打开的时候 home 页面的脚本没有正常运行, 初次加载视网络情况可能较慢，请等待一会儿后重新打开 home 页面即可。
 
-![image](https://github.com/CL3709/Obsidian-sampleVaultCL/assets/140160162/8ef21448-f8f4-4a33-9fae-27fb00f7de15)
+![image](300_附件/2.gif)
 
 
