@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7173fed14de84bf4",
+        "id": "50053f390c7764d0",
         "type": "tabs",
         "children": [
           {
-            "id": "c7786e1d2fe2c530",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e63320e10523bc50",
+            "id": "2c4552bea79f051d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9cf80d63254e8409",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -275,10 +276,11 @@
       "cmdr:Git: Pull": false
     }
   },
-  "active": "c7786e1d2fe2c530",
+  "active": "9cf80d63254e8409",
   "lastOpenFiles": [
     "README.md",
     "Home.md",
+    "100_笔记/110_ObsidianCL示例库/SampleVaultCL-BackupSolutionsRecommendations.md",
     "500_模板/Taskido/待办事项统计板.md",
     "400_待办/420_周记录库/2024-W13.md",
     "400_待办/410_日记录库/待办板.md",
@@ -312,7 +314,6 @@
     "300_附件/Pasted Image 20240301163042_061.png",
     "300_附件/Pasted Image 20240301162955_059.png",
     "300_附件/Pasted Image 20240301162924_079.png",
-    "Obsidian-sampleVaultCL/README.md",
     "Obsidian-sampleVaultCL",
     "新建文件夹",
     "100_笔记/110_ObsidianCL示例库",
