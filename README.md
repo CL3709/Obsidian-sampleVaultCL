@@ -11,7 +11,7 @@ Author: CL
 
 ![image](https://github.com/CL3709/Obsidian-sampleVaultCL/assets/140160162/34e2e433-7215-436a-bed1-8d93bb51f7e3)
 
-![image](300_附件/Pasted image 20240326143859.png)
+![image](https://github.com/CL3709/Obsidian-sampleVaultCL/assets/140160162/3116045e-fe84-4626-ae66-8f34a08df29c)
 
 ![image](300_附件/3.gif)
 
