@@ -265,7 +265,7 @@ $$
 
 关于 Latex 公式[^2]
 
-[[SampleVaultCL-BeginPage#CL 的示例库介绍|-->返回]]
+[[SampleVaultCL-beginPage#CL 的示例库介绍|-->返回]]
 
 [^1]: [百度地址](https://www.baidu.com)
 [^2]: [wolai 帮助中心-Latex 公式语法](https://www.wolai.com/wolai/egjDbHiAfGfJmwR972fcEW)

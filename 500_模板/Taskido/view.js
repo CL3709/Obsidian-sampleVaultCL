@@ -21,6 +21,17 @@ var tid = (new Date()).getTime();
 var today = moment().format("YYYY-MM-DD");
 var dailyNoteRegEx = momentToRegex(dailyNoteFormat);
 
+// 标签列表
+
+const allTags = [];
+
+tasks.forEach(task => {
+    const tags = task.tags.map(tag => tag.replace(/^#/, '')); // 去除每个标签最前面的#号
+    allTags.push(...tags);
+});
+
+const uniqueTags = [...new Set(allTags)];
+
 // Set Root
 const rootNode = dv.el("div", "", {cls: "taskido "+options, attr: {id: "taskido"+tid}});
 if (css) { var style = document.createElement("style"); style.innerHTML = css; rootNode.querySelector("span").append(style) };
@@ -347,6 +358,102 @@ function setEvents() {
 			openFile(link, line, col);
 		};
 	})));
+	// 新增输入#号触发联想补全的事件监听器
+	rootNode.querySelector('.newTask').addEventListener('input', (() => {
+		var input = rootNode.querySelector('.newTask');
+		var newTask = input.value;
+
+		// 使用正则表达式匹配标签
+		var tagMatches = newTask.match(/#([^#\s]+)/g); // 匹配以#开头，后跟任意非#和空白字符的字符串
+
+		if (tagMatches && tagMatches.length > 0) { // 如果匹配到标签
+			tagMatches.forEach(tagMatch => {
+				var tag = tagMatch.substring(1); // 去除#号，获取标签内容
+				if (tag.trim() !== "") { // 确保标签不为空
+					var filteredTags = uniqueTags.filter(tagItem => tagItem.toLowerCase().includes(tag.toLowerCase())); // 过滤包含标签内容的数组
+
+					// 构建联想补全列表
+					var suggestions = filteredTags.map(tagItem => {
+						return "<div class='suggestion'>" + tagItem + "</div>";
+					}).join("");
+
+					// 显示联想补全列表
+					showSuggestions(suggestions);
+
+					var selectedSuggestionIndex = -1; // 初始化选中的联想项索引
+
+					// 添加点击事件监听器，点击联想项插入到输入框中
+					rootNode.querySelectorAll('.suggestion').forEach((suggestion, index) => {
+						suggestion.addEventListener('click', () => {
+							insertTagIntoInput(suggestion.textContent);
+						});
+
+						// 添加鼠标移入事件监听器，设置选中的联想项索引并加粗显示
+						suggestion.addEventListener('mouseover', () => {
+							selectedSuggestionIndex = index;
+							highlightSelectedSuggestion();
+						});
+					});
+
+					// 添加键盘事件监听器，支持方向键操作和 Tab 补全
+					input.addEventListener('keydown', (e) => {
+						if (e.keyCode === 38) { // Up arrow key
+							e.preventDefault();
+							selectedSuggestionIndex = Math.max(selectedSuggestionIndex - 1, 0);
+							highlightSelectedSuggestion();
+						} else if (e.keyCode === 40) { // Down arrow key
+							e.preventDefault();
+							selectedSuggestionIndex = Math.min(selectedSuggestionIndex + 1, filteredTags.length - 1);
+							highlightSelectedSuggestion();
+						} else if (e.keyCode === 9) { // Tab key
+							// console.log("TAB 按下确认")
+							e.preventDefault();
+							if (selectedSuggestionIndex !== -1) {
+								insertTagIntoInput(filteredTags[selectedSuggestionIndex]);
+							} else {
+								// 检查是否正在进行标签的联想补全
+								if (newTask.includes("#")) {
+									e.preventDefault(); // 阻止默认的 Tab 行为
+									var lastTag = newTask.substring(newTask.lastIndexOf("#") + 1);
+									insertTagIntoInput(lastTag);
+								}
+							}
+						}
+					});
+
+					// 函数：插入标签到输入框
+					function insertTagIntoInput(tag) {
+						var existingText = input.value.substring(0, input.value.lastIndexOf("#") + 1); // 获取已存在的文本
+						var newText = existingText + tag; // 构建新的文本
+						input.value = newText; // 更新输入框内容
+						hideSuggestions(); // 隐藏联想补全列表
+					}
+
+					// 函数：加粗显示选中的联想项，并应用背景色
+					function highlightSelectedSuggestion() {
+						rootNode.querySelectorAll('.suggestion').forEach((suggestion, index) => {
+							if (index === selectedSuggestionIndex) {
+								suggestion.style.fontWeight = 'bold';
+								suggestion.style.backgroundColor = '#cccccc2f'; // 应用背景色
+							} else {
+								suggestion.style.fontWeight = 'normal';
+								suggestion.style.backgroundColor = 'transparent'; // 恢复透明背景
+							}
+						});
+					}
+
+					// 标签补全默认选择第一个联想
+					selectedSuggestionIndex = 0;
+					highlightSelectedSuggestion();
+				} else {
+					hideSuggestions(); // 隐藏联想补全列表
+				}
+			});
+		} else {
+			hideSuggestions(); // 隐藏联想补全列表
+		}
+	}));
+
 	rootNode.querySelector('.ok').addEventListener('click', (() => {
 		var filePath = rootNode.querySelector('.fileSelect').value;
 		var newTask = rootNode.querySelector('.newTask').value;
@@ -559,7 +666,7 @@ function getTimeline(tasks) {
 			todayContent += "</div>"
 			// Quick Entry panel
 			todayContent += "<div class='quickEntryPanel'>"
-			todayContent += "<div class='left'><select class='fileSelect' aria-label='Select a note to add a new task to'></select><input class='newTask' type='text' placeholder='Enter your tasks here'/></div>"
+			todayContent += "<div class='left'><select class='fileSelect' aria-label='Select a note to add a new task to'></select><input class='newTask' type='text' placeholder='在这里输入任务, 标签可用TAB键补全'/></div>"
 			todayContent += "<div class='right'><button class='ok' aria-label='Append new task to selected note'>"
 			todayContent += '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 10 4 15 9 20"></polyline><path d="M20 4v7a4 4 0 0 1-4 4H4"></path></svg>'
 			todayContent += "</button></div>"
@@ -638,3 +745,23 @@ function getTimeline(tasks) {
 	};
 	
 };
+
+function showSuggestions(suggestions) {
+    var suggestionsPanel = rootNode.querySelector("#suggestionsPanel");
+    if (!suggestionsPanel) {
+        suggestionsPanel = document.createElement("div");
+        suggestionsPanel.id = "suggestionsPanel";
+        rootNode.appendChild(suggestionsPanel);
+    }
+    suggestionsPanel.innerHTML = ""; // 清空原有内容
+    suggestionsPanel.innerHTML = suggestions; // 添加新内容
+}
+
+
+
+function hideSuggestions() {
+    var suggestionsPanel = rootNode.querySelector("#suggestionsPanel");
+    if (suggestionsPanel) {
+        suggestionsPanel.innerHTML = ""; // 清空内容
+    }
+}

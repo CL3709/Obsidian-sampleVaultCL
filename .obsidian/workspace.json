@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "49cbdcf5314cccfb",
+        "id": "795b2555b159f18d",
         "type": "tabs",
         "children": [
           {
-            "id": "902d604c31ec20ba",
+            "id": "c16061441620f32f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ae2462cb81cc9cdc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "500_模板/Taskido/待办事项统计板.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -58,7 +71,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "d859e6077cba33e5",
@@ -124,7 +138,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Home.md"
+                "file": "400_待办/410_日记录库/待办板.md"
               }
             }
           },
@@ -149,11 +163,11 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Diary",
+                "query": "",
                 "matchingCase": false,
-                "explainSearch": false,
+                "explainSearch": true,
                 "collapseAll": false,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical"
               }
             }
@@ -164,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "400_待办/410_日记录库/待办板.md"
               }
             }
           },
@@ -174,7 +188,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Home.md",
+                "file": "400_待办/410_日记录库/待办板.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -209,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "400_待办/410_日记录库/待办板.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,7 +235,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "400_待办/410_日记录库/待办板.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,8 +246,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -264,15 +277,125 @@
       "cmdr:Git: Pull": false
     }
   },
-  "active": "397f99cc771ed0fd",
+  "floating": {
+    "id": "0c3b943b3d992307",
+    "type": "floating",
+    "children": [
+      {
+        "id": "6d24a1ed3533f330",
+        "type": "window",
+        "children": [
+          {
+            "id": "8b60686e2bd131a7",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "f4443c268df38ab1",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "400_待办/410_日记录库/待办板.md",
+                    "mode": "preview",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "016c15c1b221c705",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "400_待办/420_周记录库/2024-W13.md",
+                    "mode": "preview",
+                    "source": false
+                  }
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "vertical",
+        "x": 853,
+        "y": 30,
+        "width": 854,
+        "height": 1037,
+        "maximize": false,
+        "zoom": 0
+      },
+      {
+        "id": "625fa518f5a27055",
+        "type": "window",
+        "children": [
+          {
+            "id": "ad6510cc669a1c00",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b56daa4042c61831",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "400_待办/410_日记录库/待办板.md",
+                    "mode": "preview",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "3eb7e6d515cee4bc",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "400_待办/420_周记录库/2024-W13.md",
+                    "mode": "preview",
+                    "source": false
+                  }
+                }
+              }
+            ],
+            "stacked": true
+          }
+        ],
+        "direction": "vertical",
+        "x": 853,
+        "y": 30,
+        "width": 854,
+        "height": 1037,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "b56daa4042c61831",
   "lastOpenFiles": [
-    "README.md",
+    "500_模板/Taskido/待办事项统计板.md",
+    "400_待办/410_日记录库/待办板.md",
+    "400_待办/420_周记录库/2024-W13.md",
     "Home.md",
-    "100_笔记/110_ObsidianCL示例库/SampleVaultCL-BeginPage.md",
-    "100_笔记/110_ObsidianCL示例库/SampleVaultCL-HotKeys.md",
-    "200_碎片/Git 的使用.md",
+    "400_待办/410_日记录库/循环任务设置.md",
+    "README.md",
+    "300_附件/Pasted image 20240326143051.png",
+    "300_附件/2.gif",
+    "300_附件/1.gif",
+    "400_待办/410_日记录库/20240326.md",
+    "400_待办/410_日记录库/20240220.md",
+    "400_待办/420_周记录库/2024-W08.md",
+    "400_待办/420_周记录库/2024-W12.md",
+    "400_待办/420_周记录库/2024-W09.md",
+    "100_笔记/110_ObsidianCL示例库/SampleVaultCL-beginPage.md",
+    "400_待办/410_日记录库/20240221.md",
+    "400_待办/410_日记录库/20240225.md",
     "200_碎片/使用 Obsidian Git 插件备份笔记.md",
+    "200_碎片/Git 的使用.md",
+    "100_笔记/110_ObsidianCL示例库/SampleVaultCL-HotKeys.md",
     "100_笔记/110_ObsidianCL示例库/SampleVaultCL-TaskManagerGuide.md",
+    "300_附件/330_绘图/使用 Obsidian Git 插件备份笔记 2024-03-01 15.48.08.excalidraw.md",
+    "500_模板/默认收件模板.md",
     "100_笔记/110_ObsidianCL示例库/SampleVaultCL-ObsidianQuickStartGuide.md",
     "300_附件/330_绘图/使用 Obsidian Git 插件备份笔记 2024-03-01 16.03.01.excalidraw.md",
     "300_附件/Pasted image 20240301164149.png",
@@ -284,27 +407,11 @@
     "300_附件/Pasted Image 20240301163042_061.png",
     "300_附件/Pasted Image 20240301162955_059.png",
     "300_附件/Pasted Image 20240301162924_079.png",
-    "300_附件/Pasted Image 20240301162212_069.png",
-    "300_附件/Pasted Image 20240301160600_061.png",
-    "300_附件/Pasted Image 20240301160544_066.png",
-    "300_附件/330_绘图/使用 Obsidian Git 插件备份笔记 2024-03-01 15.48.08.excalidraw.md",
     "Obsidian-sampleVaultCL/README.md",
     "Obsidian-sampleVaultCL",
     "新建文件夹",
-    "400_待办/420_周记录库/2024-W09.md",
-    "400_待办/410_日记录库/待办板.md",
-    "100_笔记/110_ObsidianCL示例库/自定义标签颜色.md",
     "100_笔记/110_ObsidianCL示例库",
-    "100_笔记/110_ObsidianCL示例库/SampleVaultCL-BackupSolutionsRecommendations.md",
-    "200_碎片/AnuPpuccinMD元素设置对照.md",
-    "200_碎片/Git Cheat List.md",
-    "Obsidian-SampleVaultCL/README.md",
     "Obsidian-SampleVaultCL",
-    "500_模板/Taskido/待办事项统计板.md",
-    "500_模板/tablesCSS/00 - darkblue round.md",
-    "500_模板/tablesCSS/05 - White red rounded.md",
-    "500_模板/tablesCSS/06 - Yellow cab.md",
-    "500_模板/tablesCSS/05 - White red.md",
     "500_模板/font/Muyao-Softbrush-2.ttf",
     "500_模板/font",
     "300_附件/330_绘图",

@@ -19,7 +19,7 @@ banner_x: 0.5
 
 >[!multi-column]
 >>[!faq] **使用手册？**
->> 这里有一份关于这个示例库的说明：[[SampleVaultCL-BeginPage|从这里开始]]
+>> 这里有一份关于这个示例库的说明：[[SampleVaultCL-beginPage|从这里开始]]
 
 > [!multi-column]
 >

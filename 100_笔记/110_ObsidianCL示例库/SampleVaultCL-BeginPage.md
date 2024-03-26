@@ -9,7 +9,7 @@ cssclasses:
 # CL 的示例库介绍
 
 >[!question] **欢迎使用 CL 的示例库，您想要了解些什么？**
-> - **简单介绍**下这个示例库：[[SampleVaultCL-BeginPage#简要的介绍|简要的介绍]]
+> - **简单介绍**下这个示例库：[[SampleVaultCL-beginPage#简要的介绍|简要的介绍]]
 > - 新增的**待办管理**功能怎么用：[[SampleVaultCL-TaskManagerGuide|待办管理功能使用说明]]
 > - 没有用过 **markdown** 语法的笔记软件，速度说下文本编辑相关的功能：[[SampleVaultCL-ObsidianQuickStartGuide|Obsidian快速开始]]
 > - 告诉下**常用的快捷键**：[[SampleVaultCL-HotKeys|常用快捷键]]
@@ -64,4 +64,4 @@ print('Hello')
 
 ```
 
-[[SampleVaultCL-BeginPage#CL 的示例库介绍|-->返回]]
+[[SampleVaultCL-beginPage#CL 的示例库介绍|-->返回]]
