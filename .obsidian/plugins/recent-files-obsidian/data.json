@@ -9,6 +9,22 @@
       "path": "README.md"
     },
     {
+      "basename": "待办板",
+      "path": "400_待办/410_日记录库/待办板.md"
+    },
+    {
+      "basename": "待办事项统计板",
+      "path": "500_模板/Taskido/待办事项统计板.md"
+    },
+    {
+      "basename": "2024-W13",
+      "path": "400_待办/420_周记录库/2024-W13.md"
+    },
+    {
+      "basename": "待办日历看板",
+      "path": "500_模板/TasksCalendar/待办日历看板.md"
+    },
+    {
       "basename": "SampleVaultCL-TaskManagerGuide",
       "path": "100_笔记/110_ObsidianCL示例库/SampleVaultCL-TaskManagerGuide.md"
     },
@@ -23,18 +39,6 @@
     {
       "basename": "自定义标签颜色",
       "path": "100_笔记/110_ObsidianCL示例库/自定义标签颜色.md"
-    },
-    {
-      "basename": "待办事项统计板",
-      "path": "500_模板/Taskido/待办事项统计板.md"
-    },
-    {
-      "basename": "待办板",
-      "path": "400_待办/410_日记录库/待办板.md"
-    },
-    {
-      "basename": "2024-W13",
-      "path": "400_待办/420_周记录库/2024-W13.md"
     },
     {
       "basename": "20240326",
@@ -135,10 +139,6 @@
     {
       "basename": "周记模板",
       "path": "500_模板/周记模板.md"
-    },
-    {
-      "basename": "待办日历看板",
-      "path": "500_模板/TasksCalendar/待办日历看板.md"
     },
     {
       "basename": "SampleVaultCL-BackupSolutionsRecommendations",
