@@ -27,7 +27,7 @@ Author: CL
 
 选择 Download ZIP 选项即可
 
-![image](https://github.com/CL3709/Obsidian-sampleVaultCL/assets/140160162/36083362-c724-4a84-9dcf-c378285369a5)
+![image](300_附件/1.gif)
 
 解压并使用 obsidian 打开本地仓库即可，如果打开的时候 home 页面的脚本没有正常运行, 初次加载视网络情况可能较慢，请等待一会儿后重新打开 home 页面即可。
 
