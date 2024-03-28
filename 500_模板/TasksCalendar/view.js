@@ -84,7 +84,21 @@ function getMeta(tasks) {
 		var scheduledMatch = taskText.match(/\⏳\W(\d{4}\-\d{2}\-\d{2})/);
 		if (scheduledMatch) {
 			tasks[i].scheduled = scheduledMatch[1];
+			// console.log(tasks[i].scheduled)
 			tasks[i].text = tasks[i].text.replace(scheduledMatch[0], "");
+		} else {// 如果没有scheduled date，将文件名作为schduled date
+			// 正则表达式来匹配日期格式
+			var regex = /(\d{4})(\d{2})(\d{2})\.md$/;
+			var match = tasks[i].path.match(regex);
+			if (match) {
+				var year = match[1];
+				var month = match[2];
+				var day = match[3];
+				// 格式化日期为 yyyy-mm-dd
+				var formattedDate = year + "-" + month + "-" + day;
+				tasks[i].scheduled = formattedDate;
+				console.log(tasks[i])
+			}
 		};
 		var completionMatch = taskText.match(/\✅\W(\d{4}\-\d{2}\-\d{2})/);
 		if (completionMatch) {
