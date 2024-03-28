@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4723a7fc5f2a4724",
+            "id": "be946f47cb233ff7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,9 +18,20 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4723a7fc5f2a4724",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ],
-        "stacked": true
+        ]
       }
     ],
     "direction": "vertical"
@@ -264,8 +275,10 @@
       "cmdr:Git: Pull": false
     }
   },
-  "active": "06f829347eeb6ed6",
+  "active": "be946f47cb233ff7",
   "lastOpenFiles": [
+    "README.md",
+    "Home.md",
     "400_待办/410_日记录库/循环任务设置.md",
     "500_模板/TasksCalendar/待办日历看板.md",
     "400_待办/410_日记录库/待办板.md",
@@ -273,7 +286,6 @@
     "000_收件/markdown ceshi.md",
     "100_笔记/110_ObsidianCL示例库/SampleVaultCL-beginPage.md",
     "200_碎片/Git 的使用.md",
-    "Home.md",
     "100_笔记/110_ObsidianCL示例库/SampleVaultCL-HotKeys.md",
     "100_笔记/110_ObsidianCL示例库/SampleVaultCL-ObsidianQuickStartGuide.md",
     "400_待办/410_日记录库/20240220.md",
@@ -287,7 +299,6 @@
     "500_模板/Taskido/待办事项统计板.md",
     "000_收件/测试文档.md",
     "500_模板/周记模板.md",
-    "README.md",
     "300_附件/1.gif",
     "300_附件/330_绘图/SampleVaultCL-BeginPage 2024-02-25 22.27.33.excalidraw.md",
     "300_附件/330_绘图/测试文档 2024-03-27 00.02.12.excalidraw.md",

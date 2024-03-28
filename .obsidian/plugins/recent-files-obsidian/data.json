@@ -5,6 +5,10 @@
       "path": "Home.md"
     },
     {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
       "basename": "待办板",
       "path": "400_待办/410_日记录库/待办板.md"
     },
@@ -71,10 +75,6 @@
     {
       "basename": "20240220",
       "path": "400_待办/410_日记录库/20240220.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     },
     {
       "basename": "自定义标签颜色",

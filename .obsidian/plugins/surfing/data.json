@@ -46,6 +46,18 @@
     ],
     "defaultFilterType": "tree"
   },
-  "treeData": [],
+  "treeData": [
+    {
+      "id": "3b51422189d74538",
+      "parent": 0,
+      "droppable": true,
+      "text": "GitHub - CL3709/Obsidian-sampleVaultCL: A sample vault of Obsidian, featuring a homepage, guidance manual, and to-do list management functionality.",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    }
+  ],
   "enableHtmlPreview": true
 }
