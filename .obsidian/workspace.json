@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "178f7ce524f03736",
+        "id": "84fcf4c1be7029d2",
         "type": "tabs",
         "children": [
           {
-            "id": "20b70dd813673be7",
+            "id": "4723a7fc5f2a4724",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,7 +19,8 @@
               }
             }
           }
-        ]
+        ],
+        "stacked": true
       }
     ],
     "direction": "vertical"
@@ -263,36 +264,37 @@
       "cmdr:Git: Pull": false
     }
   },
-  "active": "397f99cc771ed0fd",
+  "active": "06f829347eeb6ed6",
   "lastOpenFiles": [
-    "400_待办/410_日记录库/待办板.md",
-    "500_模板/TasksCalendar/待办日历看板.md",
     "400_待办/410_日记录库/循环任务设置.md",
-    "Home.md",
-    "500_模板/Taskido/待办事项统计板.md",
-    "README.md",
-    "100_笔记/110_ObsidianCL示例库/SampleVaultCL-TaskManagerGuide.md",
+    "500_模板/TasksCalendar/待办日历看板.md",
+    "400_待办/410_日记录库/待办板.md",
+    "200_碎片/使用 Obsidian Git 插件备份笔记.md",
+    "000_收件/markdown ceshi.md",
     "100_笔记/110_ObsidianCL示例库/SampleVaultCL-beginPage.md",
+    "200_碎片/Git 的使用.md",
+    "Home.md",
+    "100_笔记/110_ObsidianCL示例库/SampleVaultCL-HotKeys.md",
+    "100_笔记/110_ObsidianCL示例库/SampleVaultCL-ObsidianQuickStartGuide.md",
+    "400_待办/410_日记录库/20240220.md",
+    "400_待办/410_日记录库/20240326.md",
+    "000_收件/2024-03-29.md",
+    "000_收件/markdown语法测试.md",
+    "500_模板/默认收件模板.md",
+    "100_笔记/110_ObsidianCL示例库/SampleVaultCL-TaskManagerGuide.md",
+    "400_待办/420_周记录库/2024-W13.md",
+    "400_待办/410_日记录库/20240328.md",
+    "500_模板/Taskido/待办事项统计板.md",
+    "000_收件/测试文档.md",
+    "500_模板/周记模板.md",
+    "README.md",
     "300_附件/1.gif",
     "300_附件/330_绘图/SampleVaultCL-BeginPage 2024-02-25 22.27.33.excalidraw.md",
     "300_附件/330_绘图/测试文档 2024-03-27 00.02.12.excalidraw.md",
-    "000_收件/测试文档.md",
-    "200_碎片/使用 Obsidian Git 插件备份笔记.md",
     "300_附件/330_绘图/使用 Obsidian Git 插件备份笔记 2024-03-01 16.03.01.excalidraw.md",
-    "400_待办/410_日记录库/20240220.md",
-    "400_待办/410_日记录库/20240326.md",
-    "100_笔记/110_ObsidianCL示例库/SampleVaultCL-ObsidianQuickStartGuide.md",
-    "400_待办/420_周记录库/2024-W13.md",
-    "200_碎片/Git 的使用.md",
-    "100_笔记/110_ObsidianCL示例库/SampleVaultCL-HotKeys.md",
     "100_笔记/110_ObsidianCL示例库/SampleVaultCL-BackupSolutionsRecommendations.md",
     "300_附件/Pasted image 20240326143051.png",
     "300_附件/2.gif",
-    "400_待办/420_周记录库/2024-W08.md",
-    "400_待办/420_周记录库/2024-W12.md",
-    "400_待办/420_周记录库/2024-W09.md",
-    "400_待办/410_日记录库/20240221.md",
-    "400_待办/410_日记录库/20240225.md",
     "300_附件/Pasted image 20240301164149.png",
     "300_附件/Pasted image 20240301163901.png",
     "300_附件/Pasted Image 20240301163322_189.png",
